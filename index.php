@@ -1,4 +1,9 @@
-<?php
+<?php 
+include 'view/UtamaUI.php';
 
-echo "bonjour vii";
-?>
+$utm = new UtamaUI();
+
+$utm->tampilkanHalaman();
+
+
+ ?>
