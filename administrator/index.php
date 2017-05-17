@@ -5,5 +5,4 @@ $brd = new BerandaUI();
 
 $brd->tampilLengkap();
 
-
  ?>
