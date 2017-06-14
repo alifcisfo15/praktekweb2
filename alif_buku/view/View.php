@@ -8,21 +8,19 @@ class View
 	public $title;
 	public $subtitle;
 	public $content;
-	public $sidebar;
-
 
 	function __construct()
 	{
-		include_once 'template/navigation.php';
+		include_once 'template/navigasi.php';
 		include_once 'template/header.php';
-		//include_once 'template/content.php';
+		include_once 'template/sidebar.php';
+		// include_once 'content.php';
 		
 	}
 
 	protected function end()
 	{
-				include_once 'template/sidebar.php';
-				include 'template/footer.php';
+		include 'template/footer.php';
 	}
 	
 }

@@ -1,7 +1,7 @@
 <?php 
 
 	$host = "localhost";
-	$dbname = "sisfonews";
+	$dbname = "alif_buku";
 	$username = "root";
 	$password = "0102";
 
